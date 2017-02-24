@@ -1,3 +1,8 @@
-<h1>
-  {{title}}
-</h1>
+<h1>Random Quote Generator</h1>
+<div class="content-box">
+    <blockquote><h3>{{currentQuote.quoteBody}}</h3>
+    <p>-{{currentQuote.author}}</p>
+    </blockquote>
+    <button class="btn btn-success img-responsive" (click)='newQuote()'>New Quote</button>
+</div>
+<footer>Designed and coded in Angular2 by Jeremy Hurley</footer>
